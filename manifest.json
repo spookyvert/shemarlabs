@@ -2,7 +2,6 @@
   "manifest_version": 2,
   "name": "Shemar Labs ",
   "version": "1",
-  "default_locale": "en",
   "description": "a simple chrome extension that messes with your DOM :)",
   "icons": { "16": "icon16.png",
            "48": "icon48.png",
