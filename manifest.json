@@ -1,0 +1,21 @@
+{
+  "manifest_version": 2,
+  "name": "Shemar Labs ",
+  "version": "1",
+  "default_locale": "en",
+  "description": "a simple chrome extension that messes with your DOM :)",
+  "icons": { "16": "icon16.png",
+           "48": "icon48.png",
+          "128": "icon128.png" },
+  "content_scripts": [
+    {
+      "matches": [
+        "https://www.accesslabs.org/",
+        "http://www.accesslabs.org/",
+        "http://*.accesslabs.org/",
+        "https://*.accesslabs.org/"
+      ],
+      "js": ["scripts.js"]
+    }
+  ]
+}
